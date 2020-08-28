@@ -1,8 +1,8 @@
-apiVersion: apps.open-cluster-management.io/v1
+apiVersion: apps.YOUR_GITHUB_USERNAME.io/v1
 kind: Channel
 metadata:
   name: mongochannel
   namespace: mongo
 spec:
-  pathname: 'https://github.com/open-cluster-management/labs.git'
+  pathname: 'https://github.com/YOUR_GITHUB_USERNAME/labs.git'
   type: GitHub
